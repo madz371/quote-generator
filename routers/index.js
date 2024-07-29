@@ -7,13 +7,13 @@ exports.routes = {
    path: '/',
    method: 'get',
    execution: async (req, res, next) => {
-      res.sendFile(path.join(__dirname, './lib/index.html'));
      /*res.json({
          creator: global.creator,
          msg: {
             message: 'LO KONTOL!'
          }
       })*/
+      res.sendFile(path.join(__dirname, 'index.html'));
    },
    error: false
 }
