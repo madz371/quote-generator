@@ -7,7 +7,7 @@ exports.routes = {
       res.json({
          creator: global.creator,
          msg: {
-            script: 'https://github.com/neoxr/quote-generator'
+            message: 'LO KONTOL!'
          }
       })
    },
