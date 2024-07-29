@@ -1,4 +1,7 @@
 const quoteApi = require('@neoxr/quote-api')
+const app = express();
+const path = require('path');
+const port = 3000;
 exports.routes = {
    category: 'main',
    path: '/',
